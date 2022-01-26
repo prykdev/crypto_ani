@@ -42,6 +42,7 @@
 }
 .headerItems > p{ 
   margin: 10px;
+  cursor: pointer;
 }
 .headerAction{
     display: flex;
@@ -58,6 +59,7 @@
     justify-content: center;
     align-items: center;
     object-fit: contain;
+    cursor: pointer;
 }
 .themeSwitcher > img{
     width: 25px;

@@ -36,3 +36,16 @@
     font-size: 18px;
     font-weight: 600;
 }
+.buyme{
+    background: linear-gradient(to right, #59f9b7, #66feea); 
+    border-radius: 50px;   
+    padding: 15px 40px;
+    cursor: pointer;
+    color: #1c1c1e;
+    margin-top:1rem ;
+    text-decoration: none;
+   }
+
+.BuyContainer{
+    display: flex;
+}
