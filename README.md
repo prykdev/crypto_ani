@@ -1,4 +1,5 @@
 # NFT Collection  
+
 ![image](https://user-images.githubusercontent.com/59612128/151151593-bf77b28b-0a1a-4a8f-a9e6-4f33d04f0c9a.png)
 
 ![image](https://user-images.githubusercontent.com/59612128/151151673-029c857a-bae3-4060-86c5-7e71291c2efe.png)
@@ -20,3 +21,7 @@ Web3 is currently in-progress and isn’t exactly defined yet. However, the main
 
 ## What is ThirdWeb?
 Smart contracts you control. Tools that accelerate your workflow. Intuitive SDKs and widgets for developers. It makes the work easy even if you don't know how to code in solidity then also you can build dapps (dementalized web applications)
+
+# deployed Version 
+You you can cheout the deployed version here:-  
+https://crypto-ani.netlify.app/
