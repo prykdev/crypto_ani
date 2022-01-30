@@ -1,3 +1,14 @@
+# NFT Collection  
+![image](https://user-images.githubusercontent.com/59612128/151151593-bf77b28b-0a1a-4a8f-a9e6-4f33d04f0c9a.png)
+
+![image](https://user-images.githubusercontent.com/59612128/151151673-029c857a-bae3-4060-86c5-7e71291c2efe.png)
+
+## Tech Stack
+- [x] Reactjs
+- [x] ThirdWeb
+- [x] HTML
+- [x] CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
