@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/assets"
+  to = "https://testnets-api.opensea.io/assets"
+  status = 200
+  force = true
+  headers = {access-control-allow-origin= "*"}
+  

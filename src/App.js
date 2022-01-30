@@ -8,15 +8,16 @@ function App() {
   const [punkListData, setpunkListData] = useState([]);
   const [selectedPunk, setSelectedPunk] = useState(1);
 
+  const getmynft = async () => {
+    const openseaData = await axios.get("/assets?order_direction=asc&asset_contract_address=0x1C725597dD75ffa4C6b76a387E11B8Ee399b66D3");
+    console.log(openseaData.data.assets,"abc")
+    setpunkListData(openseaData.data.assets);
+  };
+
+  
   useEffect(() => {
-    const getmynft = async () => {
-      const openseaData = await axios.get(
-        "https://testnets-api.opensea.io/assets?order_direction=asc&asset_contract_address=0x1C725597dD75ffa4C6b76a387E11B8Ee399b66D3"
-      );
-      //console.log(openseaData.data.assets)
-      setpunkListData(openseaData.data.assets);
-    };
     return getmynft();
+    
   }, []);
 
   return (
